@@ -5,20 +5,6 @@ trigger. The strategy: tail only trades that are part of a *meaningful*
 position (his real directional bets), not the tiny ladder/exit fills that
 make up most of his trade count.
 
-## Current target wallet
-
-`HomeRunHazard` — `0x5268527977f700f9bf9b6d5cd843859e4e70135d`
-
-Chosen because:
-- **100% MLB pure-play** — perfect mapping to Kalshi (no skipped markets)
-- **12,524 closed positions** all-time, **6,050 in last 90 days** — huge
-  statistical sample, edge confidence is real
-- Bucketed by stake size, his **$5K+ positions show +5–8% ROI** on 2,000+
-  positions (his small bets are noise)
-- Currently active daily — MLB peak season
-
-See `../tail-analysis/` for the original tailability analysis that selected
-this wallet from a pool of 45 candidates.
 
 ## How it works (planned)
 
@@ -48,17 +34,12 @@ tail-bot/
 └── results/                 backtest outputs
 ```
 
-## Phases
-
-- **Phase 1 (now): Backtest** — Replay HomeRunHazard's historical activity
-  through the trigger logic, compute hypothetical PnL across parameter sweeps.
-  Validates the strategy before any real money.
-- **Phase 2: Live runner** — Wire into Poly-Monitor's polling +
-  KalshiBot's order placement. Paper-trade for 2 weeks first.
-- **Phase 3: Production** — Real capital, with stop-loss and drawdown limits.
 
 ## Dependencies
 
 - Polymarket data APIs (read-only, no auth)
 - Kalshi API (KalshiBot already has the client + auth)
-- HomeRunHazard's closed-position data (cached from `../tail-analysis/`)
+
+## Usage
+pkill -f "[p]ython3 -m bot.wallet_alerts"
+bash scripts/start_matanovik_alerts.sh
