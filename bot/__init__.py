@@ -1,0 +1,1 @@
+"""Consensus-tail trading bot."""

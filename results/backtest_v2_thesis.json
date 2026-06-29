@@ -1,0 +1,3336 @@
+{
+  "all": [
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Timberwolves vs. Heat",
+      "slug": "nba-min-mia-2026-01-03",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 794927.1333939751,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.44232238531631407,
+      "exec_price": 0.4623223853163141,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Knicks vs. Pistons",
+      "slug": "nba-nyk-det-2026-01-05",
+      "thesis_label": "Ml Knicks (YES side)",
+      "action_outcome": "Knicks",
+      "consensus_n": 2.0,
+      "consensus_stake": 771838.4494653395,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.538634627664442,
+      "exec_price": 0.558634627664442,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Trail Blazers vs. Timberwolves",
+      "slug": "nba-por-min-2026-03-20",
+      "thesis_label": "Ml Trail Blazers (YES side)",
+      "action_outcome": "Trail Blazers",
+      "consensus_n": 2.0,
+      "consensus_stake": 722270.6530091579,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.49769358041008316,
+      "exec_price": 0.5176935804100832,
+      "won": true,
+      "pnl_net": 86.64294617354815,
+      "sharps": [
+        "beachboy4",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Warriors (-3.5)",
+      "slug": "nba-gsw-lac-2026-01-05",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 644870.0996860092,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5963452414704489,
+      "exec_price": 0.6163452414704489,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Rockets vs. Nuggets",
+      "slug": "nba-hou-den-2025-12-15",
+      "thesis_label": "Ml Rockets (YES side)",
+      "action_outcome": "Rockets",
+      "consensus_n": 2.0,
+      "consensus_stake": 605479.9704017028,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5255238968877236,
+      "exec_price": 0.5455238968877236,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Raiders vs. Chiefs",
+      "slug": "nfl-lv-kc-2025-10-19",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 3.0,
+      "consensus_stake": 587246.22615505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8501520844171018,
+      "exec_price": 0.8701520844171018,
+      "won": true,
+      "pnl_net": 13.877868438709672,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Raiders vs. Chiefs",
+      "slug": "nfl-lv-kc-2025-10-19",
+      "thesis_label": "ML cluster: Chiefs",
+      "action_outcome": "Chiefs",
+      "consensus_n": 3.0,
+      "consensus_stake": 587246.22615505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8501520844171018,
+      "exec_price": 0.8701520844171018,
+      "won": true,
+      "pnl_net": 13.877868438709672,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Celtics vs. Hawks",
+      "slug": "nba-bos-atl-2026-03-30",
+      "thesis_label": "Ml Hawks (YES side)",
+      "action_outcome": "Hawks",
+      "consensus_n": 2.0,
+      "consensus_stake": 541390.6400000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5599999999999999,
+      "exec_price": 0.58,
+      "won": true,
+      "pnl_net": 67.3448275862069,
+      "sharps": [
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Broncos",
+      "slug": "nfl-buf-den-2026-01-17",
+      "thesis_label": "Ml Broncos (YES side)",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 539843.7954430316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5082962011807903,
+      "exec_price": 0.5282962011807903,
+      "won": true,
+      "pnl_net": 83.03760881137606,
+      "sharps": [
+        "weflyhigh",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Bills vs. Broncos",
+      "slug": "nfl-buf-den-2026-01-17",
+      "thesis_label": "ML cluster: Broncos",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 539843.7954430316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5082962011807903,
+      "exec_price": 0.5282962011807903,
+      "won": true,
+      "pnl_net": 83.03760881137606,
+      "sharps": [
+        "weflyhigh",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bucks vs. Nuggets",
+      "slug": "nba-mil-den-2026-01-11",
+      "thesis_label": "Ml Bucks (YES side)",
+      "action_outcome": "Bucks",
+      "consensus_n": 2.0,
+      "consensus_stake": 539296.7646004685,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6373791727725547,
+      "exec_price": 0.6573791727725548,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spurs vs. Warriors",
+      "slug": "nba-sas-gsw-2026-02-11",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 483287.0688825371,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.33223748107536455,
+      "exec_price": 0.35223748107536457,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Warriors vs. Pelicans",
+      "slug": "nba-gsw-nop-2026-02-24",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 424816.29440181,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5299999999999999,
+      "exec_price": 0.5499999999999999,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Celtics (-11.5)",
+      "slug": "nba-sac-bos-2026-01-30",
+      "thesis_label": "Ml Celtics (YES side)",
+      "action_outcome": "Celtics",
+      "consensus_n": 2.0,
+      "consensus_stake": 411107.92451124784,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.82,
+      "exec_price": 0.84,
+      "won": true,
+      "pnl_net": 17.714285714285715,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Hornets (-2.5)",
+      "slug": "nba-phi-cha-2026-01-26",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 368260.224533783,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5553189315036186,
+      "exec_price": 0.5753189315036186,
+      "won": true,
+      "pnl_net": 68.64946937682176,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pacers vs. Knicks",
+      "slug": "nba-ind-nyk-2026-02-10",
+      "thesis_label": "Ml Pacers (YES side)",
+      "action_outcome": "Pacers",
+      "consensus_n": 2.0,
+      "consensus_stake": 335859.4256658584,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.16446073534897715,
+      "exec_price": 0.18446073534897714,
+      "won": true,
+      "pnl_net": 411.17233686104186,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Patriots vs. Broncos",
+      "slug": "nfl-ne-den-2026-01-25",
+      "thesis_label": "Ml Broncos (YES side)",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 309829.70954469,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3173165716819324,
+      "exec_price": 0.3373165716819324,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Patriots vs. Broncos",
+      "slug": "nfl-ne-den-2026-01-25",
+      "thesis_label": "ML cluster: Broncos",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 309829.70954469,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3173165716819324,
+      "exec_price": 0.3373165716819324,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pistons vs. Raptors",
+      "slug": "nba-det-tor-2026-02-11",
+      "thesis_label": "Ml Pistons (YES side)",
+      "action_outcome": "Pistons",
+      "consensus_n": 2.0,
+      "consensus_stake": 303889.36252423655,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4945187537615453,
+      "exec_price": 0.5145187537615453,
+      "won": true,
+      "pnl_net": 87.75142902002172,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Bruins vs. Lightning",
+      "slug": "nhl-bos-tb-2026-02-01",
+      "thesis_label": "Ml Lightning (YES side)",
+      "action_outcome": "Lightning",
+      "consensus_n": 2.0,
+      "consensus_stake": 287203.19462391053,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6600000000480812,
+      "exec_price": 0.6800000000480813,
+      "won": true,
+      "pnl_net": 43.76470587268262,
+      "sharps": [
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spurs vs. Celtics",
+      "slug": "nba-sas-bos-2026-01-10",
+      "thesis_label": "Ml Celtics (YES side)",
+      "action_outcome": "Celtics",
+      "consensus_n": 2.0,
+      "consensus_stake": 286778.07537777,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5080673084908289,
+      "exec_price": 0.528067308490829,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Cavaliers (-5.5)",
+      "slug": "nba-cle-cha-2026-02-20",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 283672.2184683144,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.32,
+      "exec_price": 0.34,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Blackhawks vs. Sharks",
+      "slug": "nhl-chi-sj-2026-04-06",
+      "thesis_label": "Ml Sharks (YES side)",
+      "action_outcome": "Sharks",
+      "consensus_n": 2.0,
+      "consensus_stake": 261315.86947021002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6028485291327876,
+      "exec_price": 0.6228485291327877,
+      "won": true,
+      "pnl_net": 56.313991524531545,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. Lakers",
+      "slug": "nba-dal-lal-2026-02-12",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 260711.0978300185,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2871310893859199,
+      "exec_price": 0.30713108938591993,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Nuggets vs. Heat",
+      "slug": "nba-den-mia-2025-12-29",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 251414.71552907422,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.45575083449683657,
+      "exec_price": 0.4757508344968366,
+      "won": true,
+      "pnl_net": 102.48047687264412,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pistons vs. Hornets",
+      "slug": "nba-det-cha-2026-02-09",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 224263.07374082,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.43,
+      "exec_price": 0.45,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-04-11",
+      "slug": "epl-ars-bou-2026-04-11",
+      "thesis_label": "NOT Arsenal Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 217791.54477069003,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.33000000000000007,
+      "exec_price": 0.3500000000000001,
+      "won": true,
+      "pnl_net": 172.71428571428567,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Nuggets",
+      "slug": "nba-mem-den-2026-02-11",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 214059.2503233505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.15409433550938112,
+      "exec_price": 0.1740943355093811,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Cowboys vs. Lions",
+      "slug": "nfl-dal-det-2025-12-04",
+      "thesis_label": "Ml Lions (YES side)",
+      "action_outcome": "Lions",
+      "consensus_n": 2.0,
+      "consensus_stake": 213443.82680724424,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6254815272019366,
+      "exec_price": 0.6454815272019366,
+      "won": true,
+      "pnl_net": 51.07848417156217,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Clippers vs. Rockets",
+      "slug": "nba-lac-hou-2026-02-10",
+      "thesis_label": "Ml Clippers (YES side)",
+      "action_outcome": "Clippers",
+      "consensus_n": 2.0,
+      "consensus_stake": 191999.78204405002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.27218750243451645,
+      "exec_price": 0.29218750243451647,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "weflyhigh",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Penguins vs. Devils",
+      "slug": "nhl-pit-nj-2026-04-09",
+      "thesis_label": "Ml Devils (YES side)",
+      "action_outcome": "Devils",
+      "consensus_n": 2.0,
+      "consensus_stake": 183099.12384267317,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4993614128887052,
+      "exec_price": 0.5193614128887052,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "weflyhigh",
+        "maxgreen"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bulls vs. Nets",
+      "slug": "nba-chi-bkn-2026-02-09",
+      "thesis_label": "Ml Nets (YES side)",
+      "action_outcome": "Nets",
+      "consensus_n": 3.0,
+      "consensus_stake": 169706.39708114925,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3988226073915348,
+      "exec_price": 0.4188226073915348,
+      "won": true,
+      "pnl_net": 129.0510506326591,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nba",
+      "title": "Bulls vs. Nets",
+      "slug": "nba-chi-bkn-2026-02-09",
+      "thesis_label": "ML cluster: Nets",
+      "action_outcome": "Nets",
+      "consensus_n": 3.0,
+      "consensus_stake": 169706.39708114925,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3988226073915348,
+      "exec_price": 0.4188226073915348,
+      "won": true,
+      "pnl_net": 129.0510506326591,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Hawks vs. Hornets",
+      "slug": "nba-atl-cha-2026-02-11",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 167999.916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6,
+      "exec_price": 0.62,
+      "won": true,
+      "pnl_net": 56.999999999999986,
+      "sharps": [
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Yankees vs. Twins",
+      "slug": "mlb-nyy-min-2025-09-15",
+      "thesis_label": "Ml Yankees (YES side)",
+      "action_outcome": "Yankees",
+      "consensus_n": 2.0,
+      "consensus_stake": 152313.70056496002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6299999999999999,
+      "exec_price": 0.6499999999999999,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bucks vs. Magic",
+      "slug": "nba-mil-orl-2026-02-11",
+      "thesis_label": "Ml Bucks (YES side)",
+      "action_outcome": "Bucks",
+      "consensus_n": 2.0,
+      "consensus_stake": 133577.12945157805,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.19999999999999998,
+      "exec_price": 0.21999999999999997,
+      "won": true,
+      "pnl_net": 329.72727272727275,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Texans",
+      "slug": "nfl-buf-hou-2025-11-20",
+      "thesis_label": "Ml Texans (YES side)",
+      "action_outcome": "Texans",
+      "consensus_n": 2.0,
+      "consensus_stake": 125148.39984763003,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.29000000000000004,
+      "exec_price": 0.31000000000000005,
+      "won": true,
+      "pnl_net": 206.99999999999991,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Knicks vs. Wizards",
+      "slug": "nba-nyk-was-2026-02-03",
+      "thesis_label": "Ml Knicks (YES side)",
+      "action_outcome": "Knicks",
+      "consensus_n": 2.0,
+      "consensus_stake": 104566.7842,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8387799251839285,
+      "exec_price": 0.8587799251839285,
+      "won": true,
+      "pnl_net": 15.293169498671958,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bengals vs. Packers",
+      "slug": "nfl-cin-gb-2025-10-12",
+      "thesis_label": "Ml Packers (YES side)",
+      "action_outcome": "Packers",
+      "consensus_n": 2.0,
+      "consensus_stake": 102127.66054538358,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8866753183134042,
+      "exec_price": 0.9066753183134042,
+      "won": true,
+      "pnl_net": 9.572550638081152,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bears vs. Ravens",
+      "slug": "nfl-chi-bal-2025-10-26",
+      "thesis_label": "Ml Ravens (YES side)",
+      "action_outcome": "Ravens",
+      "consensus_n": 2.0,
+      "consensus_stake": 101739.03989008669,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6377128145158601,
+      "exec_price": 0.6577128145158602,
+      "won": true,
+      "pnl_net": 48.39909995285242,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Lions vs. Eagles",
+      "slug": "nfl-det-phi-2025-11-16",
+      "thesis_label": "Ml Eagles (YES side)",
+      "action_outcome": "Eagles",
+      "consensus_n": 2.0,
+      "consensus_stake": 101359.24921311409,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5578729749061612,
+      "exec_price": 0.5778729749061612,
+      "won": true,
+      "pnl_net": 67.93502212160371,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "49ers vs. Saints",
+      "slug": "nfl-sf-no-2025-09-14",
+      "thesis_label": "Ml Saints (YES side)",
+      "action_outcome": "Saints",
+      "consensus_n": 2.0,
+      "consensus_stake": 100028.74996019,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.39382448451896696,
+      "exec_price": 0.413824484518967,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Chiefs vs. Broncos",
+      "slug": "nfl-kc-den-2025-11-16",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 2.0,
+      "consensus_stake": 98677.918,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3542173038146184,
+      "exec_price": 0.37421730381461843,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Texans vs. Jaguars",
+      "slug": "nfl-hou-jax-2025-09-21",
+      "thesis_label": "Ml Jaguars (YES side)",
+      "action_outcome": "Jaguars",
+      "consensus_n": 2.0,
+      "consensus_stake": 89019.8947127143,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5224690873311367,
+      "exec_price": 0.5424690873311367,
+      "won": true,
+      "pnl_net": 78.43834030717859,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Wizards vs. Rockets",
+      "slug": "nba-was-hou-2025-11-12",
+      "thesis_label": "Ml Rockets (YES side)",
+      "action_outcome": "Rockets",
+      "consensus_n": 2.0,
+      "consensus_stake": 72999.98901006901,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.90136986171346,
+      "exec_price": 0.92136986171346,
+      "won": true,
+      "pnl_net": 7.93666383557311,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pacers vs. Heat",
+      "slug": "nba-ind-mia-2025-12-27",
+      "thesis_label": "Ml Pacers (YES side)",
+      "action_outcome": "Pacers",
+      "consensus_n": 2.0,
+      "consensus_stake": 66399.79391200001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.28160417666568616,
+      "exec_price": 0.3016041766656862,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Jaguars",
+      "slug": "nfl-buf-jax-2026-01-11",
+      "thesis_label": "Ml Bills (YES side)",
+      "action_outcome": "Bills",
+      "consensus_n": 3.0,
+      "consensus_stake": 65976.16236747916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.46,
+      "exec_price": 0.48000000000000004,
+      "won": true,
+      "pnl_net": 100.74999999999997,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Bills vs. Jaguars",
+      "slug": "nfl-buf-jax-2026-01-11",
+      "thesis_label": "ML cluster: Bills",
+      "action_outcome": "Bills",
+      "consensus_n": 3.0,
+      "consensus_stake": 65976.16236747916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.46,
+      "exec_price": 0.48000000000000004,
+      "won": true,
+      "pnl_net": 100.74999999999997,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Magic",
+      "slug": "nba-mem-orl-2026-01-15",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 65755.94729499999,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.34516789943616005,
+      "exec_price": 0.36516789943616007,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Brewers vs. Cubs",
+      "slug": "mlb-mil-chc-2025-10-08",
+      "thesis_label": "Ml Cubs (YES side)",
+      "action_outcome": "Cubs",
+      "consensus_n": 2.0,
+      "consensus_stake": 64981.97251410918,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6230222921100032,
+      "exec_price": 0.6430222921100032,
+      "won": true,
+      "pnl_net": 51.62951151324984,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Tigers vs. Guardians",
+      "slug": "mlb-det-cle-2025-10-02",
+      "thesis_label": "Ml Tigers (YES side)",
+      "action_outcome": "Tigers",
+      "consensus_n": 2.0,
+      "consensus_stake": 63489.90842861529,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4581513717953661,
+      "exec_price": 0.4781513717953661,
+      "won": true,
+      "pnl_net": 101.49907599512461,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Dodgers vs. Phillies",
+      "slug": "mlb-lad-phi-2025-10-06",
+      "thesis_label": "Ml Phillies (YES side)",
+      "action_outcome": "Phillies",
+      "consensus_n": 2.0,
+      "consensus_stake": 62440.65496714669,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4948006978118532,
+      "exec_price": 0.5148006978118532,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Sharks vs. Ducks",
+      "slug": "nhl-sj-ana-2025-12-29",
+      "thesis_label": "Ml Sharks (YES side)",
+      "action_outcome": "Sharks",
+      "consensus_n": 2.0,
+      "consensus_stake": 59538.560696860004,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4062884972201544,
+      "exec_price": 0.42628849722015444,
+      "won": true,
+      "pnl_net": 125.16211463939791,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Heat vs. Timberwolves",
+      "slug": "nba-mia-min-2026-01-06",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 56661.73996354,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.35746386814950204,
+      "exec_price": 0.37746386814950206,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Browns vs. Steelers",
+      "slug": "nfl-cle-pit-2025-10-12",
+      "thesis_label": "Ml Steelers (YES side)",
+      "action_outcome": "Steelers",
+      "consensus_n": 2.0,
+      "consensus_stake": 49468.74930000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7299999999999999,
+      "exec_price": 0.7499999999999999,
+      "won": true,
+      "pnl_net": 31.000000000000007,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. Pelicans",
+      "slug": "nba-dal-nop-2025-12-22",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 48982.99580242,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4810713717921967,
+      "exec_price": 0.5010713717921967,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "ufc",
+      "title": "Will the fight be won by submission",
+      "slug": "ufc-isl-jac9-2025-11-15",
+      "thesis_label": "Ml Della Maddalena (YES side)",
+      "action_outcome": "Della Maddalena",
+      "consensus_n": 2.0,
+      "consensus_stake": 47689.599725,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.26047398180903897,
+      "exec_price": 0.280473981809039,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Blue Jays vs. Mariners",
+      "slug": "mlb-tor-sea-2025-10-15",
+      "thesis_label": "Ml Mariners (YES side)",
+      "action_outcome": "Mariners",
+      "consensus_n": 2.0,
+      "consensus_stake": 47136.494472759165,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.55,
+      "exec_price": 0.5700000000000001,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Patriots vs. Bengals",
+      "slug": "nfl-ne-cin-2025-11-23",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 45311.140799999994,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.23,
+      "exec_price": 0.25,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Spread: 49ers (-3.5)",
+      "slug": "nfl-sf-ari-2025-11-16",
+      "thesis_label": "Ml 49Ers (YES side)",
+      "action_outcome": "49ers",
+      "consensus_n": 2.0,
+      "consensus_stake": 45127.635819219984,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6711357841662288,
+      "exec_price": 0.6911357841662288,
+      "won": true,
+      "pnl_net": 41.56111249136547,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Suns vs. Mavericks",
+      "slug": "nba-phx-dal-2025-11-12",
+      "thesis_label": "Ml Suns (YES side)",
+      "action_outcome": "Suns",
+      "consensus_n": 2.0,
+      "consensus_stake": 45099.99755592111,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5356297407672075,
+      "exec_price": 0.5556297407672075,
+      "won": true,
+      "pnl_net": 74.37764949656334,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bengals vs. Ravens",
+      "slug": "nfl-cin-bal-2025-11-27",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 43696.1846,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2223670487697455,
+      "exec_price": 0.2423670487697455,
+      "won": true,
+      "pnl_net": 290.71552763491474,
+      "sharps": [
+        "Supah9ga",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-02-12",
+      "slug": "epl-bre-ars-2026-02-12",
+      "thesis_label": "NOT Arsenal Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 41311.18906393934,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.42000000000000004,
+      "exec_price": 0.44000000000000006,
+      "won": true,
+      "pnl_net": 118.36363636363633,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Raptors vs. Nets",
+      "slug": "nba-tor-bkn-2025-11-11",
+      "thesis_label": "Ml Raptors (YES side)",
+      "action_outcome": "Raptors",
+      "consensus_n": 2.0,
+      "consensus_stake": 41199.99407165391,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7865520548672771,
+      "exec_price": 0.8065520548672771,
+      "won": true,
+      "pnl_net": 22.305638909200596,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Blue Jays vs. Dodgers",
+      "slug": "mlb-tor-lad-2025-10-27",
+      "thesis_label": "Ml Blue Jays (YES side)",
+      "action_outcome": "Blue Jays",
+      "consensus_n": 2.0,
+      "consensus_stake": 40750.44366981496,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3986841261709541,
+      "exec_price": 0.41868412617095413,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Rams vs. 49ers",
+      "slug": "nfl-la-sf-2025-11-09",
+      "thesis_label": "Ml Rams (YES side)",
+      "action_outcome": "Rams",
+      "consensus_n": 2.0,
+      "consensus_stake": 40523.648532399995,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7395871190304442,
+      "exec_price": 0.7595871190304442,
+      "won": true,
+      "pnl_net": 29.434935598575585,
+      "sharps": [
+        "Supah9ga",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Commanders vs. Dolphins: O/U 46.5",
+      "slug": "nfl-was-mia-2025-11-16",
+      "thesis_label": "Ml Commanders (YES side)",
+      "action_outcome": "Commanders",
+      "consensus_n": 2.0,
+      "consensus_stake": 40250.0,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.44765217391304346,
+      "exec_price": 0.4676521739130435,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bulls vs. Pistons",
+      "slug": "nba-chi-det-2025-11-12",
+      "thesis_label": "Ml Bulls (YES side)",
+      "action_outcome": "Bulls",
+      "consensus_n": 2.0,
+      "consensus_stake": 39639.52887316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5349955537872317,
+      "exec_price": 0.5549955537872318,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Manchester City FC win on 2026-01-01",
+      "slug": "epl-sun-mac-2026-01-01",
+      "thesis_label": "NOT Manchester City Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 39110.57321063,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3151341538644139,
+      "exec_price": 0.3351341538644139,
+      "won": true,
+      "pnl_net": 184.5008125182766,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Clippers vs. Lakers",
+      "slug": "nba-lac-lal-2026-02-20",
+      "thesis_label": "Ml Clippers (YES side)",
+      "action_outcome": "Clippers",
+      "consensus_n": 2.0,
+      "consensus_stake": 38535.94305,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2974103261240936,
+      "exec_price": 0.31741032612409364,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Warriors vs. Thunder",
+      "slug": "nba-gsw-okc-2025-11-11",
+      "thesis_label": "Ml Thunder (YES side)",
+      "action_outcome": "Thunder",
+      "consensus_n": 2.0,
+      "consensus_stake": 38489.972632879864,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.737401924288071,
+      "exec_price": 0.7574019242880711,
+      "won": true,
+      "pnl_net": 29.78817496722953,
+      "sharps": [
+        "fengdubiying",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Blues vs. Utah",
+      "slug": "nhl-stl-utah-2026-04-16",
+      "thesis_label": "Ml Blues (YES side)",
+      "action_outcome": "Blues",
+      "consensus_n": 2.0,
+      "consensus_stake": 38318.90542482138,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5301979500893278,
+      "exec_price": 0.5501979500893278,
+      "won": true,
+      "pnl_net": 76.03007360332933,
+      "sharps": [
+        "weflyhigh",
+        "maxgreen"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Thunder vs. Nuggets",
+      "slug": "nba-okc-den-2026-02-01",
+      "thesis_label": "Ml Thunder (YES side)",
+      "action_outcome": "Thunder",
+      "consensus_n": 2.0,
+      "consensus_stake": 29519.782038253954,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6963028988541116,
+      "exec_price": 0.7163028988541116,
+      "won": true,
+      "pnl_net": 36.833343057489394,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Tottenham Hotspur FC win on 2026-03-05",
+      "slug": "epl-tot-cry-2026-03-05",
+      "thesis_label": "NOT Tottenham Hotspur Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 28484.559999999998,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.61,
+      "exec_price": 0.63,
+      "won": true,
+      "pnl_net": 54.61904761904762,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Cavaliers vs. Pistons",
+      "slug": "nba-cle-det-2026-02-27",
+      "thesis_label": "Ml Pistons (YES side)",
+      "action_outcome": "Pistons",
+      "consensus_n": 2.0,
+      "consensus_stake": 27296.480800000005,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7269140930430855,
+      "exec_price": 0.7469140930430855,
+      "won": true,
+      "pnl_net": 31.512311209845283,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Ravens vs. Bengals",
+      "slug": "nfl-bal-cin-2025-12-14",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 26176.203957000005,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.38595777694451733,
+      "exec_price": 0.40595777694451735,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Manchester United FC win on 2026-01-25",
+      "slug": "epl-ars-mun-2026-01-25",
+      "thesis_label": "NOT Manchester United Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 24550.93261538,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8300000368875391,
+      "exec_price": 0.8500000368875391,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Panthers vs. Saints",
+      "slug": "nfl-car-no-2025-12-14",
+      "thesis_label": "Ml Saints (YES side)",
+      "action_outcome": "Saints",
+      "consensus_n": 2.0,
+      "consensus_stake": 15297.85052366,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.41477093466605125,
+      "exec_price": 0.43477093466605127,
+      "won": true,
+      "pnl_net": 120.90574342655529,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Rams vs. Panthers",
+      "slug": "nfl-la-car-2026-01-10",
+      "thesis_label": "Ml Rams (YES side)",
+      "action_outcome": "Rams",
+      "consensus_n": 2.0,
+      "consensus_stake": 13970.746500000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8188681682113408,
+      "exec_price": 0.8388681682113408,
+      "won": true,
+      "pnl_net": 17.86366550097772,
+      "sharps": [
+        "Supah9ga",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Tottenham Hotspur FC win on 2026-01-01",
+      "slug": "epl-bre-tot-2026-01-01",
+      "thesis_label": "NOT Tottenham Hotspur Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 12613.443099320002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6674099352908535,
+      "exec_price": 0.6874099352908535,
+      "won": true,
+      "pnl_net": 42.290450756505734,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-03-14",
+      "slug": "epl-ars-eve-2026-03-14",
+      "thesis_label": "Arsenal Fc Win (YES side)",
+      "action_outcome": "Yes",
+      "consensus_n": 3.0,
+      "consensus_stake": 4554063.31140588,
+      "stake_conviction": 0.9908617446814167,
+      "avg_entry": 0.7002736206701123,
+      "exec_price": 0.7202736206701124,
+      "won": true,
+      "pnl_net": 36.11759827255189,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Liverpool FC win on 2026-03-03",
+      "slug": "epl-wol-liv-2026-03-03",
+      "thesis_label": "NOT Liverpool Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 676715.4285757447,
+      "stake_conviction": 0.9864310426619106,
+      "avg_entry": 0.33,
+      "exec_price": 0.35000000000000003,
+      "won": true,
+      "pnl_net": 172.71428571428567,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Newcastle United FC win on 2026-01-25",
+      "slug": "epl-new-ast-2026-01-25",
+      "thesis_label": "Newcastle United Fc Win (YES side)",
+      "action_outcome": "Yes",
+      "consensus_n": 2.0,
+      "consensus_stake": 1088099.6442881918,
+      "stake_conviction": 0.9759917192906485,
+      "avg_entry": 0.45042275539966836,
+      "exec_price": 0.4704227553996684,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Warriors",
+      "slug": "nba-mem-gsw-2026-02-09",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 193217.28774010832,
+      "stake_conviction": 0.9341132473567116,
+      "avg_entry": 0.23417021204532176,
+      "exec_price": 0.25417021204532175,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Commanders vs. Chiefs",
+      "slug": "nfl-was-kc-2025-10-27",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 2.0,
+      "consensus_stake": 342781.20995188446,
+      "stake_conviction": 0.9232340855803808,
+      "avg_entry": 0.8317311333957987,
+      "exec_price": 0.8517311333957988,
+      "won": true,
+      "pnl_net": 16.189386595761526,
+      "sharps": [
+        "Supah9ga",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Vikings vs. Bears",
+      "slug": "nfl-min-chi-2025-09-08",
+      "thesis_label": "Ml Vikings (YES side)",
+      "action_outcome": "Vikings",
+      "consensus_n": 2.0,
+      "consensus_stake": 69416.59491030888,
+      "stake_conviction": 0.9150276170960653,
+      "avg_entry": 0.5516090349608718,
+      "exec_price": 0.5716090349608718,
+      "won": true,
+      "pnl_net": 69.69861795723033,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. 76ers",
+      "slug": "nba-dal-phi-2025-12-20",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 54329.5183062,
+      "stake_conviction": 0.9110567320082379,
+      "avg_entry": 0.48252989542858343,
+      "exec_price": 0.5025298954285834,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    }
+  ],
+  "thesis": [
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Timberwolves vs. Heat",
+      "slug": "nba-min-mia-2026-01-03",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 794927.1333939751,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.44232238531631407,
+      "exec_price": 0.4623223853163141,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Knicks vs. Pistons",
+      "slug": "nba-nyk-det-2026-01-05",
+      "thesis_label": "Ml Knicks (YES side)",
+      "action_outcome": "Knicks",
+      "consensus_n": 2.0,
+      "consensus_stake": 771838.4494653395,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.538634627664442,
+      "exec_price": 0.558634627664442,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Trail Blazers vs. Timberwolves",
+      "slug": "nba-por-min-2026-03-20",
+      "thesis_label": "Ml Trail Blazers (YES side)",
+      "action_outcome": "Trail Blazers",
+      "consensus_n": 2.0,
+      "consensus_stake": 722270.6530091579,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.49769358041008316,
+      "exec_price": 0.5176935804100832,
+      "won": true,
+      "pnl_net": 86.64294617354815,
+      "sharps": [
+        "beachboy4",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Warriors (-3.5)",
+      "slug": "nba-gsw-lac-2026-01-05",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 644870.0996860092,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5963452414704489,
+      "exec_price": 0.6163452414704489,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Rockets vs. Nuggets",
+      "slug": "nba-hou-den-2025-12-15",
+      "thesis_label": "Ml Rockets (YES side)",
+      "action_outcome": "Rockets",
+      "consensus_n": 2.0,
+      "consensus_stake": 605479.9704017028,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5255238968877236,
+      "exec_price": 0.5455238968877236,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Raiders vs. Chiefs",
+      "slug": "nfl-lv-kc-2025-10-19",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 3.0,
+      "consensus_stake": 587246.22615505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8501520844171018,
+      "exec_price": 0.8701520844171018,
+      "won": true,
+      "pnl_net": 13.877868438709672,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Celtics vs. Hawks",
+      "slug": "nba-bos-atl-2026-03-30",
+      "thesis_label": "Ml Hawks (YES side)",
+      "action_outcome": "Hawks",
+      "consensus_n": 2.0,
+      "consensus_stake": 541390.6400000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5599999999999999,
+      "exec_price": 0.58,
+      "won": true,
+      "pnl_net": 67.3448275862069,
+      "sharps": [
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Broncos",
+      "slug": "nfl-buf-den-2026-01-17",
+      "thesis_label": "Ml Broncos (YES side)",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 539843.7954430316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5082962011807903,
+      "exec_price": 0.5282962011807903,
+      "won": true,
+      "pnl_net": 83.03760881137606,
+      "sharps": [
+        "weflyhigh",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bucks vs. Nuggets",
+      "slug": "nba-mil-den-2026-01-11",
+      "thesis_label": "Ml Bucks (YES side)",
+      "action_outcome": "Bucks",
+      "consensus_n": 2.0,
+      "consensus_stake": 539296.7646004685,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6373791727725547,
+      "exec_price": 0.6573791727725548,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spurs vs. Warriors",
+      "slug": "nba-sas-gsw-2026-02-11",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 483287.0688825371,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.33223748107536455,
+      "exec_price": 0.35223748107536457,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Warriors vs. Pelicans",
+      "slug": "nba-gsw-nop-2026-02-24",
+      "thesis_label": "Ml Warriors (YES side)",
+      "action_outcome": "Warriors",
+      "consensus_n": 2.0,
+      "consensus_stake": 424816.29440181,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5299999999999999,
+      "exec_price": 0.5499999999999999,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Celtics (-11.5)",
+      "slug": "nba-sac-bos-2026-01-30",
+      "thesis_label": "Ml Celtics (YES side)",
+      "action_outcome": "Celtics",
+      "consensus_n": 2.0,
+      "consensus_stake": 411107.92451124784,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.82,
+      "exec_price": 0.84,
+      "won": true,
+      "pnl_net": 17.714285714285715,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Hornets (-2.5)",
+      "slug": "nba-phi-cha-2026-01-26",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 368260.224533783,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5553189315036186,
+      "exec_price": 0.5753189315036186,
+      "won": true,
+      "pnl_net": 68.64946937682176,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pacers vs. Knicks",
+      "slug": "nba-ind-nyk-2026-02-10",
+      "thesis_label": "Ml Pacers (YES side)",
+      "action_outcome": "Pacers",
+      "consensus_n": 2.0,
+      "consensus_stake": 335859.4256658584,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.16446073534897715,
+      "exec_price": 0.18446073534897714,
+      "won": true,
+      "pnl_net": 411.17233686104186,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Patriots vs. Broncos",
+      "slug": "nfl-ne-den-2026-01-25",
+      "thesis_label": "Ml Broncos (YES side)",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 309829.70954469,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3173165716819324,
+      "exec_price": 0.3373165716819324,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pistons vs. Raptors",
+      "slug": "nba-det-tor-2026-02-11",
+      "thesis_label": "Ml Pistons (YES side)",
+      "action_outcome": "Pistons",
+      "consensus_n": 2.0,
+      "consensus_stake": 303889.36252423655,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4945187537615453,
+      "exec_price": 0.5145187537615453,
+      "won": true,
+      "pnl_net": 87.75142902002172,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Bruins vs. Lightning",
+      "slug": "nhl-bos-tb-2026-02-01",
+      "thesis_label": "Ml Lightning (YES side)",
+      "action_outcome": "Lightning",
+      "consensus_n": 2.0,
+      "consensus_stake": 287203.19462391053,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6600000000480812,
+      "exec_price": 0.6800000000480813,
+      "won": true,
+      "pnl_net": 43.76470587268262,
+      "sharps": [
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spurs vs. Celtics",
+      "slug": "nba-sas-bos-2026-01-10",
+      "thesis_label": "Ml Celtics (YES side)",
+      "action_outcome": "Celtics",
+      "consensus_n": 2.0,
+      "consensus_stake": 286778.07537777,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5080673084908289,
+      "exec_price": 0.528067308490829,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Spread: Cavaliers (-5.5)",
+      "slug": "nba-cle-cha-2026-02-20",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 283672.2184683144,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.32,
+      "exec_price": 0.34,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Blackhawks vs. Sharks",
+      "slug": "nhl-chi-sj-2026-04-06",
+      "thesis_label": "Ml Sharks (YES side)",
+      "action_outcome": "Sharks",
+      "consensus_n": 2.0,
+      "consensus_stake": 261315.86947021002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6028485291327876,
+      "exec_price": 0.6228485291327877,
+      "won": true,
+      "pnl_net": 56.313991524531545,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. Lakers",
+      "slug": "nba-dal-lal-2026-02-12",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 260711.0978300185,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2871310893859199,
+      "exec_price": 0.30713108938591993,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Nuggets vs. Heat",
+      "slug": "nba-den-mia-2025-12-29",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 251414.71552907422,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.45575083449683657,
+      "exec_price": 0.4757508344968366,
+      "won": true,
+      "pnl_net": 102.48047687264412,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pistons vs. Hornets",
+      "slug": "nba-det-cha-2026-02-09",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 224263.07374082,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.43,
+      "exec_price": 0.45,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-04-11",
+      "slug": "epl-ars-bou-2026-04-11",
+      "thesis_label": "NOT Arsenal Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 217791.54477069003,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.33000000000000007,
+      "exec_price": 0.3500000000000001,
+      "won": true,
+      "pnl_net": 172.71428571428567,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Nuggets",
+      "slug": "nba-mem-den-2026-02-11",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 214059.2503233505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.15409433550938112,
+      "exec_price": 0.1740943355093811,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Cowboys vs. Lions",
+      "slug": "nfl-dal-det-2025-12-04",
+      "thesis_label": "Ml Lions (YES side)",
+      "action_outcome": "Lions",
+      "consensus_n": 2.0,
+      "consensus_stake": 213443.82680724424,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6254815272019366,
+      "exec_price": 0.6454815272019366,
+      "won": true,
+      "pnl_net": 51.07848417156217,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Clippers vs. Rockets",
+      "slug": "nba-lac-hou-2026-02-10",
+      "thesis_label": "Ml Clippers (YES side)",
+      "action_outcome": "Clippers",
+      "consensus_n": 2.0,
+      "consensus_stake": 191999.78204405002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.27218750243451645,
+      "exec_price": 0.29218750243451647,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "weflyhigh",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Penguins vs. Devils",
+      "slug": "nhl-pit-nj-2026-04-09",
+      "thesis_label": "Ml Devils (YES side)",
+      "action_outcome": "Devils",
+      "consensus_n": 2.0,
+      "consensus_stake": 183099.12384267317,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4993614128887052,
+      "exec_price": 0.5193614128887052,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "weflyhigh",
+        "maxgreen"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bulls vs. Nets",
+      "slug": "nba-chi-bkn-2026-02-09",
+      "thesis_label": "Ml Nets (YES side)",
+      "action_outcome": "Nets",
+      "consensus_n": 3.0,
+      "consensus_stake": 169706.39708114925,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3988226073915348,
+      "exec_price": 0.4188226073915348,
+      "won": true,
+      "pnl_net": 129.0510506326591,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Hawks vs. Hornets",
+      "slug": "nba-atl-cha-2026-02-11",
+      "thesis_label": "Ml Hornets (YES side)",
+      "action_outcome": "Hornets",
+      "consensus_n": 2.0,
+      "consensus_stake": 167999.916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6,
+      "exec_price": 0.62,
+      "won": true,
+      "pnl_net": 56.999999999999986,
+      "sharps": [
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Yankees vs. Twins",
+      "slug": "mlb-nyy-min-2025-09-15",
+      "thesis_label": "Ml Yankees (YES side)",
+      "action_outcome": "Yankees",
+      "consensus_n": 2.0,
+      "consensus_stake": 152313.70056496002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6299999999999999,
+      "exec_price": 0.6499999999999999,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bucks vs. Magic",
+      "slug": "nba-mil-orl-2026-02-11",
+      "thesis_label": "Ml Bucks (YES side)",
+      "action_outcome": "Bucks",
+      "consensus_n": 2.0,
+      "consensus_stake": 133577.12945157805,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.19999999999999998,
+      "exec_price": 0.21999999999999997,
+      "won": true,
+      "pnl_net": 329.72727272727275,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Texans",
+      "slug": "nfl-buf-hou-2025-11-20",
+      "thesis_label": "Ml Texans (YES side)",
+      "action_outcome": "Texans",
+      "consensus_n": 2.0,
+      "consensus_stake": 125148.39984763003,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.29000000000000004,
+      "exec_price": 0.31000000000000005,
+      "won": true,
+      "pnl_net": 206.99999999999991,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Knicks vs. Wizards",
+      "slug": "nba-nyk-was-2026-02-03",
+      "thesis_label": "Ml Knicks (YES side)",
+      "action_outcome": "Knicks",
+      "consensus_n": 2.0,
+      "consensus_stake": 104566.7842,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8387799251839285,
+      "exec_price": 0.8587799251839285,
+      "won": true,
+      "pnl_net": 15.293169498671958,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bengals vs. Packers",
+      "slug": "nfl-cin-gb-2025-10-12",
+      "thesis_label": "Ml Packers (YES side)",
+      "action_outcome": "Packers",
+      "consensus_n": 2.0,
+      "consensus_stake": 102127.66054538358,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8866753183134042,
+      "exec_price": 0.9066753183134042,
+      "won": true,
+      "pnl_net": 9.572550638081152,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bears vs. Ravens",
+      "slug": "nfl-chi-bal-2025-10-26",
+      "thesis_label": "Ml Ravens (YES side)",
+      "action_outcome": "Ravens",
+      "consensus_n": 2.0,
+      "consensus_stake": 101739.03989008669,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6377128145158601,
+      "exec_price": 0.6577128145158602,
+      "won": true,
+      "pnl_net": 48.39909995285242,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Lions vs. Eagles",
+      "slug": "nfl-det-phi-2025-11-16",
+      "thesis_label": "Ml Eagles (YES side)",
+      "action_outcome": "Eagles",
+      "consensus_n": 2.0,
+      "consensus_stake": 101359.24921311409,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5578729749061612,
+      "exec_price": 0.5778729749061612,
+      "won": true,
+      "pnl_net": 67.93502212160371,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "49ers vs. Saints",
+      "slug": "nfl-sf-no-2025-09-14",
+      "thesis_label": "Ml Saints (YES side)",
+      "action_outcome": "Saints",
+      "consensus_n": 2.0,
+      "consensus_stake": 100028.74996019,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.39382448451896696,
+      "exec_price": 0.413824484518967,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Chiefs vs. Broncos",
+      "slug": "nfl-kc-den-2025-11-16",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 2.0,
+      "consensus_stake": 98677.918,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3542173038146184,
+      "exec_price": 0.37421730381461843,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Texans vs. Jaguars",
+      "slug": "nfl-hou-jax-2025-09-21",
+      "thesis_label": "Ml Jaguars (YES side)",
+      "action_outcome": "Jaguars",
+      "consensus_n": 2.0,
+      "consensus_stake": 89019.8947127143,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5224690873311367,
+      "exec_price": 0.5424690873311367,
+      "won": true,
+      "pnl_net": 78.43834030717859,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Wizards vs. Rockets",
+      "slug": "nba-was-hou-2025-11-12",
+      "thesis_label": "Ml Rockets (YES side)",
+      "action_outcome": "Rockets",
+      "consensus_n": 2.0,
+      "consensus_stake": 72999.98901006901,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.90136986171346,
+      "exec_price": 0.92136986171346,
+      "won": true,
+      "pnl_net": 7.93666383557311,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Pacers vs. Heat",
+      "slug": "nba-ind-mia-2025-12-27",
+      "thesis_label": "Ml Pacers (YES side)",
+      "action_outcome": "Pacers",
+      "consensus_n": 2.0,
+      "consensus_stake": 66399.79391200001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.28160417666568616,
+      "exec_price": 0.3016041766656862,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bills vs. Jaguars",
+      "slug": "nfl-buf-jax-2026-01-11",
+      "thesis_label": "Ml Bills (YES side)",
+      "action_outcome": "Bills",
+      "consensus_n": 3.0,
+      "consensus_stake": 65976.16236747916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.46,
+      "exec_price": 0.48000000000000004,
+      "won": true,
+      "pnl_net": 100.74999999999997,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Magic",
+      "slug": "nba-mem-orl-2026-01-15",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 65755.94729499999,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.34516789943616005,
+      "exec_price": 0.36516789943616007,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Brewers vs. Cubs",
+      "slug": "mlb-mil-chc-2025-10-08",
+      "thesis_label": "Ml Cubs (YES side)",
+      "action_outcome": "Cubs",
+      "consensus_n": 2.0,
+      "consensus_stake": 64981.97251410918,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6230222921100032,
+      "exec_price": 0.6430222921100032,
+      "won": true,
+      "pnl_net": 51.62951151324984,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Tigers vs. Guardians",
+      "slug": "mlb-det-cle-2025-10-02",
+      "thesis_label": "Ml Tigers (YES side)",
+      "action_outcome": "Tigers",
+      "consensus_n": 2.0,
+      "consensus_stake": 63489.90842861529,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4581513717953661,
+      "exec_price": 0.4781513717953661,
+      "won": true,
+      "pnl_net": 101.49907599512461,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Dodgers vs. Phillies",
+      "slug": "mlb-lad-phi-2025-10-06",
+      "thesis_label": "Ml Phillies (YES side)",
+      "action_outcome": "Phillies",
+      "consensus_n": 2.0,
+      "consensus_stake": 62440.65496714669,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4948006978118532,
+      "exec_price": 0.5148006978118532,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Sharks vs. Ducks",
+      "slug": "nhl-sj-ana-2025-12-29",
+      "thesis_label": "Ml Sharks (YES side)",
+      "action_outcome": "Sharks",
+      "consensus_n": 2.0,
+      "consensus_stake": 59538.560696860004,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4062884972201544,
+      "exec_price": 0.42628849722015444,
+      "won": true,
+      "pnl_net": 125.16211463939791,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Heat vs. Timberwolves",
+      "slug": "nba-mia-min-2026-01-06",
+      "thesis_label": "Ml Heat (YES side)",
+      "action_outcome": "Heat",
+      "consensus_n": 2.0,
+      "consensus_stake": 56661.73996354,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.35746386814950204,
+      "exec_price": 0.37746386814950206,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Browns vs. Steelers",
+      "slug": "nfl-cle-pit-2025-10-12",
+      "thesis_label": "Ml Steelers (YES side)",
+      "action_outcome": "Steelers",
+      "consensus_n": 2.0,
+      "consensus_stake": 49468.74930000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7299999999999999,
+      "exec_price": 0.7499999999999999,
+      "won": true,
+      "pnl_net": 31.000000000000007,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. Pelicans",
+      "slug": "nba-dal-nop-2025-12-22",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 48982.99580242,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.4810713717921967,
+      "exec_price": 0.5010713717921967,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "ufc",
+      "title": "Will the fight be won by submission",
+      "slug": "ufc-isl-jac9-2025-11-15",
+      "thesis_label": "Ml Della Maddalena (YES side)",
+      "action_outcome": "Della Maddalena",
+      "consensus_n": 2.0,
+      "consensus_stake": 47689.599725,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.26047398180903897,
+      "exec_price": 0.280473981809039,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Blue Jays vs. Mariners",
+      "slug": "mlb-tor-sea-2025-10-15",
+      "thesis_label": "Ml Mariners (YES side)",
+      "action_outcome": "Mariners",
+      "consensus_n": 2.0,
+      "consensus_stake": 47136.494472759165,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.55,
+      "exec_price": 0.5700000000000001,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Patriots vs. Bengals",
+      "slug": "nfl-ne-cin-2025-11-23",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 45311.140799999994,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.23,
+      "exec_price": 0.25,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Spread: 49ers (-3.5)",
+      "slug": "nfl-sf-ari-2025-11-16",
+      "thesis_label": "Ml 49Ers (YES side)",
+      "action_outcome": "49ers",
+      "consensus_n": 2.0,
+      "consensus_stake": 45127.635819219984,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6711357841662288,
+      "exec_price": 0.6911357841662288,
+      "won": true,
+      "pnl_net": 41.56111249136547,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Suns vs. Mavericks",
+      "slug": "nba-phx-dal-2025-11-12",
+      "thesis_label": "Ml Suns (YES side)",
+      "action_outcome": "Suns",
+      "consensus_n": 2.0,
+      "consensus_stake": 45099.99755592111,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5356297407672075,
+      "exec_price": 0.5556297407672075,
+      "won": true,
+      "pnl_net": 74.37764949656334,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Bengals vs. Ravens",
+      "slug": "nfl-cin-bal-2025-11-27",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 43696.1846,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2223670487697455,
+      "exec_price": 0.2423670487697455,
+      "won": true,
+      "pnl_net": 290.71552763491474,
+      "sharps": [
+        "Supah9ga",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-02-12",
+      "slug": "epl-bre-ars-2026-02-12",
+      "thesis_label": "NOT Arsenal Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 41311.18906393934,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.42000000000000004,
+      "exec_price": 0.44000000000000006,
+      "won": true,
+      "pnl_net": 118.36363636363633,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Raptors vs. Nets",
+      "slug": "nba-tor-bkn-2025-11-11",
+      "thesis_label": "Ml Raptors (YES side)",
+      "action_outcome": "Raptors",
+      "consensus_n": 2.0,
+      "consensus_stake": 41199.99407165391,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7865520548672771,
+      "exec_price": 0.8065520548672771,
+      "won": true,
+      "pnl_net": 22.305638909200596,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "mlb",
+      "title": "Blue Jays vs. Dodgers",
+      "slug": "mlb-tor-lad-2025-10-27",
+      "thesis_label": "Ml Blue Jays (YES side)",
+      "action_outcome": "Blue Jays",
+      "consensus_n": 2.0,
+      "consensus_stake": 40750.44366981496,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3986841261709541,
+      "exec_price": 0.41868412617095413,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Rams vs. 49ers",
+      "slug": "nfl-la-sf-2025-11-09",
+      "thesis_label": "Ml Rams (YES side)",
+      "action_outcome": "Rams",
+      "consensus_n": 2.0,
+      "consensus_stake": 40523.648532399995,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7395871190304442,
+      "exec_price": 0.7595871190304442,
+      "won": true,
+      "pnl_net": 29.434935598575585,
+      "sharps": [
+        "Supah9ga",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Commanders vs. Dolphins: O/U 46.5",
+      "slug": "nfl-was-mia-2025-11-16",
+      "thesis_label": "Ml Commanders (YES side)",
+      "action_outcome": "Commanders",
+      "consensus_n": 2.0,
+      "consensus_stake": 40250.0,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.44765217391304346,
+      "exec_price": 0.4676521739130435,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "primm",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Bulls vs. Pistons",
+      "slug": "nba-chi-det-2025-11-12",
+      "thesis_label": "Ml Bulls (YES side)",
+      "action_outcome": "Bulls",
+      "consensus_n": 2.0,
+      "consensus_stake": 39639.52887316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5349955537872317,
+      "exec_price": 0.5549955537872318,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "fengdubiying"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Manchester City FC win on 2026-01-01",
+      "slug": "epl-sun-mac-2026-01-01",
+      "thesis_label": "NOT Manchester City Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 39110.57321063,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3151341538644139,
+      "exec_price": 0.3351341538644139,
+      "won": true,
+      "pnl_net": 184.5008125182766,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Clippers vs. Lakers",
+      "slug": "nba-lac-lal-2026-02-20",
+      "thesis_label": "Ml Clippers (YES side)",
+      "action_outcome": "Clippers",
+      "consensus_n": 2.0,
+      "consensus_stake": 38535.94305,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.2974103261240936,
+      "exec_price": 0.31741032612409364,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Warriors vs. Thunder",
+      "slug": "nba-gsw-okc-2025-11-11",
+      "thesis_label": "Ml Thunder (YES side)",
+      "action_outcome": "Thunder",
+      "consensus_n": 2.0,
+      "consensus_stake": 38489.972632879864,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.737401924288071,
+      "exec_price": 0.7574019242880711,
+      "won": true,
+      "pnl_net": 29.78817496722953,
+      "sharps": [
+        "fengdubiying",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nhl",
+      "title": "Blues vs. Utah",
+      "slug": "nhl-stl-utah-2026-04-16",
+      "thesis_label": "Ml Blues (YES side)",
+      "action_outcome": "Blues",
+      "consensus_n": 2.0,
+      "consensus_stake": 38318.90542482138,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5301979500893278,
+      "exec_price": 0.5501979500893278,
+      "won": true,
+      "pnl_net": 76.03007360332933,
+      "sharps": [
+        "weflyhigh",
+        "maxgreen"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Thunder vs. Nuggets",
+      "slug": "nba-okc-den-2026-02-01",
+      "thesis_label": "Ml Thunder (YES side)",
+      "action_outcome": "Thunder",
+      "consensus_n": 2.0,
+      "consensus_stake": 29519.782038253954,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6963028988541116,
+      "exec_price": 0.7163028988541116,
+      "won": true,
+      "pnl_net": 36.833343057489394,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Tottenham Hotspur FC win on 2026-03-05",
+      "slug": "epl-tot-cry-2026-03-05",
+      "thesis_label": "NOT Tottenham Hotspur Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 28484.559999999998,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.61,
+      "exec_price": 0.63,
+      "won": true,
+      "pnl_net": 54.61904761904762,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Cavaliers vs. Pistons",
+      "slug": "nba-cle-det-2026-02-27",
+      "thesis_label": "Ml Pistons (YES side)",
+      "action_outcome": "Pistons",
+      "consensus_n": 2.0,
+      "consensus_stake": 27296.480800000005,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.7269140930430855,
+      "exec_price": 0.7469140930430855,
+      "won": true,
+      "pnl_net": 31.512311209845283,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Ravens vs. Bengals",
+      "slug": "nfl-bal-cin-2025-12-14",
+      "thesis_label": "Ml Bengals (YES side)",
+      "action_outcome": "Bengals",
+      "consensus_n": 2.0,
+      "consensus_stake": 26176.203957000005,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.38595777694451733,
+      "exec_price": 0.40595777694451735,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Manchester United FC win on 2026-01-25",
+      "slug": "epl-ars-mun-2026-01-25",
+      "thesis_label": "NOT Manchester United Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 24550.93261538,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8300000368875391,
+      "exec_price": 0.8500000368875391,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Panthers vs. Saints",
+      "slug": "nfl-car-no-2025-12-14",
+      "thesis_label": "Ml Saints (YES side)",
+      "action_outcome": "Saints",
+      "consensus_n": 2.0,
+      "consensus_stake": 15297.85052366,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.41477093466605125,
+      "exec_price": 0.43477093466605127,
+      "won": true,
+      "pnl_net": 120.90574342655529,
+      "sharps": [
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Rams vs. Panthers",
+      "slug": "nfl-la-car-2026-01-10",
+      "thesis_label": "Ml Rams (YES side)",
+      "action_outcome": "Rams",
+      "consensus_n": 2.0,
+      "consensus_stake": 13970.746500000001,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8188681682113408,
+      "exec_price": 0.8388681682113408,
+      "won": true,
+      "pnl_net": 17.86366550097772,
+      "sharps": [
+        "Supah9ga",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Tottenham Hotspur FC win on 2026-01-01",
+      "slug": "epl-bre-tot-2026-01-01",
+      "thesis_label": "NOT Tottenham Hotspur Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 12613.443099320002,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.6674099352908535,
+      "exec_price": 0.6874099352908535,
+      "won": true,
+      "pnl_net": 42.290450756505734,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Arsenal FC win on 2026-03-14",
+      "slug": "epl-ars-eve-2026-03-14",
+      "thesis_label": "Arsenal Fc Win (YES side)",
+      "action_outcome": "Yes",
+      "consensus_n": 3.0,
+      "consensus_stake": 4554063.31140588,
+      "stake_conviction": 0.9908617446814167,
+      "avg_entry": 0.7002736206701123,
+      "exec_price": 0.7202736206701124,
+      "won": true,
+      "pnl_net": 36.11759827255189,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh",
+        "frankfrankfrank"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Liverpool FC win on 2026-03-03",
+      "slug": "epl-wol-liv-2026-03-03",
+      "thesis_label": "NOT Liverpool Fc Win (NO side)",
+      "action_outcome": "No",
+      "consensus_n": 2.0,
+      "consensus_stake": 676715.4285757447,
+      "stake_conviction": 0.9864310426619106,
+      "avg_entry": 0.33,
+      "exec_price": 0.35000000000000003,
+      "won": true,
+      "pnl_net": 172.71428571428567,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "soccer",
+      "title": "Will Newcastle United FC win on 2026-01-25",
+      "slug": "epl-new-ast-2026-01-25",
+      "thesis_label": "Newcastle United Fc Win (YES side)",
+      "action_outcome": "Yes",
+      "consensus_n": 2.0,
+      "consensus_stake": 1088099.6442881918,
+      "stake_conviction": 0.9759917192906485,
+      "avg_entry": 0.45042275539966836,
+      "exec_price": 0.4704227553996684,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "beachboy4",
+        "weflyhigh"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Grizzlies vs. Warriors",
+      "slug": "nba-mem-gsw-2026-02-09",
+      "thesis_label": "Ml Grizzlies (YES side)",
+      "action_outcome": "Grizzlies",
+      "consensus_n": 2.0,
+      "consensus_stake": 193217.28774010832,
+      "stake_conviction": 0.9341132473567116,
+      "avg_entry": 0.23417021204532176,
+      "exec_price": 0.25417021204532175,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "DrPufferfish",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Commanders vs. Chiefs",
+      "slug": "nfl-was-kc-2025-10-27",
+      "thesis_label": "Ml Chiefs (YES side)",
+      "action_outcome": "Chiefs",
+      "consensus_n": 2.0,
+      "consensus_stake": 342781.20995188446,
+      "stake_conviction": 0.9232340855803808,
+      "avg_entry": 0.8317311333957987,
+      "exec_price": 0.8517311333957988,
+      "won": true,
+      "pnl_net": 16.189386595761526,
+      "sharps": [
+        "Supah9ga",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nfl",
+      "title": "Vikings vs. Bears",
+      "slug": "nfl-min-chi-2025-09-08",
+      "thesis_label": "Ml Vikings (YES side)",
+      "action_outcome": "Vikings",
+      "consensus_n": 2.0,
+      "consensus_stake": 69416.59491030888,
+      "stake_conviction": 0.9150276170960653,
+      "avg_entry": 0.5516090349608718,
+      "exec_price": 0.5716090349608718,
+      "won": true,
+      "pnl_net": 69.69861795723033,
+      "sharps": [
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "thesis",
+      "sport": "nba",
+      "title": "Mavericks vs. 76ers",
+      "slug": "nba-dal-phi-2025-12-20",
+      "thesis_label": "Ml Mavericks (YES side)",
+      "action_outcome": "Mavericks",
+      "consensus_n": 2.0,
+      "consensus_stake": 54329.5183062,
+      "stake_conviction": 0.9110567320082379,
+      "avg_entry": 0.48252989542858343,
+      "exec_price": 0.5025298954285834,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish"
+      ]
+    }
+  ],
+  "cluster": [
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Raiders vs. Chiefs",
+      "slug": "nfl-lv-kc-2025-10-19",
+      "thesis_label": "ML cluster: Chiefs",
+      "action_outcome": "Chiefs",
+      "consensus_n": 3.0,
+      "consensus_stake": 587246.22615505,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.8501520844171018,
+      "exec_price": 0.8701520844171018,
+      "won": true,
+      "pnl_net": 13.877868438709672,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "ilovecircle"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Bills vs. Broncos",
+      "slug": "nfl-buf-den-2026-01-17",
+      "thesis_label": "ML cluster: Broncos",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 539843.7954430316,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.5082962011807903,
+      "exec_price": 0.5282962011807903,
+      "won": true,
+      "pnl_net": 83.03760881137606,
+      "sharps": [
+        "weflyhigh",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Patriots vs. Broncos",
+      "slug": "nfl-ne-den-2026-01-25",
+      "thesis_label": "ML cluster: Broncos",
+      "action_outcome": "Broncos",
+      "consensus_n": 3.0,
+      "consensus_stake": 309829.70954469,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3173165716819324,
+      "exec_price": 0.3373165716819324,
+      "won": false,
+      "pnl_net": -100.0,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nba",
+      "title": "Bulls vs. Nets",
+      "slug": "nba-chi-bkn-2026-02-09",
+      "thesis_label": "ML cluster: Nets",
+      "action_outcome": "Nets",
+      "consensus_n": 3.0,
+      "consensus_stake": 169706.39708114925,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.3988226073915348,
+      "exec_price": 0.4188226073915348,
+      "won": true,
+      "pnl_net": 129.0510506326591,
+      "sharps": [
+        "DrPufferfish",
+        "frankfrankfrank",
+        "Suburban-Mailbox"
+      ]
+    },
+    {
+      "signal_type": "cluster",
+      "sport": "nfl",
+      "title": "Bills vs. Jaguars",
+      "slug": "nfl-buf-jax-2026-01-11",
+      "thesis_label": "ML cluster: Bills",
+      "action_outcome": "Bills",
+      "consensus_n": 3.0,
+      "consensus_stake": 65976.16236747916,
+      "stake_conviction": 1.0,
+      "avg_entry": 0.46,
+      "exec_price": 0.48000000000000004,
+      "won": true,
+      "pnl_net": 100.74999999999997,
+      "sharps": [
+        "Supah9ga",
+        "DrPufferfish",
+        "primm"
+      ]
+    }
+  ]
+}
