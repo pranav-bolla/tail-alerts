@@ -1,24 +1,21 @@
 """
 Email notifier for new signals.
 
-Sends a single digest email per cycle containing any signals that just fired
-(status=pending, first time we've seen them). Quiet on cycles where nothing
-new appears.
+Delivery backends (pick one):
+  - Resend (HTTPS) — use on Railway/cloud; set RESEND_API_KEY
+  - Gmail SMTP — local dev; set EMAIL_PASSWORD (blocked on many hosts)
 
-Setup (one-time, ~2 minutes):
-  1. Gmail account: enable 2-Step Verification at
-     https://myaccount.google.com/security
-  2. Generate an "App password" at
-     https://myaccount.google.com/apppasswords
-     (Pick "Mail" and any device name. Copy the 16-char password.)
-  3. Add to ~/tail-bot/.env :
-       EMAIL_FROM=bollapranav05@gmail.com
-       EMAIL_PASSWORD=<16-char-app-password-no-spaces>
-       EMAIL_TO=bollapranav05@gmail.com
-  4. Test:  python3 -m bot.notifier --test
+Setup (Gmail, local):
+  1. Enable 2-Step Verification: https://myaccount.google.com/security
+  2. App password: https://myaccount.google.com/apppasswords
+  3. .env: EMAIL_FROM, EMAIL_PASSWORD, EMAIL_TO
 
-The .env file is gitignored. If credentials aren't set, the bot logs a
-warning and skips email — it keeps running normally.
+Setup (Resend, Railway):
+  1. Sign up: https://resend.com
+  2. Create API key, verify sender domain (or use onboarding@resend.dev for testing)
+  3. Railway vars: RESEND_API_KEY, EMAIL_FROM, EMAIL_TO
+
+Test:  python3 -m bot.notifier --test
 """
 from __future__ import annotations
 
@@ -30,6 +27,8 @@ import ssl
 from datetime import datetime, timezone
 from email.message import EmailMessage
 from pathlib import Path
+
+import requests
 
 from bot import game_date
 
@@ -43,11 +42,8 @@ SMTP_PORT = 465  # SSL
 
 def _load_env() -> dict:
     """Load credentials from .env or process env. Returns dict, never raises."""
-    cfg = {
-        "EMAIL_FROM": os.environ.get("EMAIL_FROM"),
-        "EMAIL_PASSWORD": os.environ.get("EMAIL_PASSWORD"),
-        "EMAIL_TO": os.environ.get("EMAIL_TO"),
-    }
+    keys = ("EMAIL_FROM", "EMAIL_PASSWORD", "EMAIL_TO", "RESEND_API_KEY")
+    cfg = {k: os.environ.get(k) for k in keys}
     if ENV_FILE.exists():
         for line in ENV_FILE.read_text().splitlines():
             line = line.strip()
@@ -61,21 +57,60 @@ def _load_env() -> dict:
     return cfg
 
 
+def email_backend(cfg: dict | None = None) -> str | None:
+    """Return 'resend', 'smtp', or None if email is not configured."""
+    cfg = cfg or _load_env()
+    if cfg.get("RESEND_API_KEY") and cfg.get("EMAIL_FROM") and cfg.get("EMAIL_TO"):
+        return "resend"
+    if cfg.get("EMAIL_FROM") and cfg.get("EMAIL_PASSWORD") and cfg.get("EMAIL_TO"):
+        return "smtp"
+    return None
+
+
 def _is_configured(cfg: dict) -> bool:
-    return all(cfg.get(k) for k in ("EMAIL_FROM", "EMAIL_PASSWORD", "EMAIL_TO"))
+    return email_backend(cfg) is not None
+
+
+def _parse_recipients(to_header: str) -> list[str]:
+    return [addr.strip() for addr in to_header.split(",") if addr.strip()]
 
 
 def _normalize_recipients(to_header: str) -> str:
-    return ", ".join(addr.strip() for addr in to_header.split(",") if addr.strip())
+    return ", ".join(_parse_recipients(to_header))
 
 
-def send_email(subject: str, body_text: str, body_html: str | None = None) -> bool:
-    cfg = _load_env()
-    if not _is_configured(cfg):
-        logger.info("email not configured (set EMAIL_FROM/PASSWORD/TO in .env "
-                    "to enable signal alerts)")
+def _send_via_resend(cfg: dict, subject: str, body_text: str,
+                     body_html: str | None) -> bool:
+    payload = {
+        "from": f"Tail Bot <{cfg['EMAIL_FROM']}>",
+        "to": _parse_recipients(cfg["EMAIL_TO"]),
+        "subject": subject,
+        "text": body_text,
+    }
+    if body_html:
+        payload["html"] = body_html
+    try:
+        r = requests.post(
+            "https://api.resend.com/emails",
+            headers={
+                "Authorization": f"Bearer {cfg['RESEND_API_KEY']}",
+                "Content-Type": "application/json",
+            },
+            json=payload,
+            timeout=20,
+        )
+        if r.status_code in (200, 201):
+            logger.info(f"email sent via Resend: {subject!r}")
+            return True
+        logger.error("Resend API error %s: %s", r.status_code, r.text[:500])
+        return False
+    except Exception as e:
+        logger.exception(f"Resend send failed: {e}")
         return False
 
+
+def _send_via_smtp(cfg: dict, subject: str, body_text: str,
+                   body_html: str | None) -> bool:
     msg = EmailMessage()
     msg["From"] = cfg["EMAIL_FROM"]
     msg["To"] = _normalize_recipients(cfg["EMAIL_TO"])
@@ -89,15 +124,34 @@ def send_email(subject: str, body_text: str, body_html: str | None = None) -> bo
         with smtplib.SMTP_SSL(SMTP_HOST, SMTP_PORT, context=ctx, timeout=20) as s:
             s.login(cfg["EMAIL_FROM"], cfg["EMAIL_PASSWORD"])
             s.send_message(msg)
-        logger.info(f"email sent: {subject!r}")
+        logger.info(f"email sent via SMTP: {subject!r}")
         return True
     except smtplib.SMTPAuthenticationError as e:
         logger.error(f"email auth failed: {e}. Did you use a 16-char Gmail "
                      f"App Password (not your account password)?")
         return False
+    except OSError as e:
+        logger.error(
+            "SMTP blocked (%s). Railway/cloud hosts block Gmail SMTP — "
+            "set RESEND_API_KEY instead.", e,
+        )
+        return False
     except Exception as e:
         logger.exception(f"email send failed: {e}")
         return False
+
+
+def send_email(subject: str, body_text: str, body_html: str | None = None) -> bool:
+    cfg = _load_env()
+    backend = email_backend(cfg)
+    if not backend:
+        logger.info("email not configured (set RESEND_API_KEY or "
+                    "EMAIL_FROM/PASSWORD/TO in .env)")
+        return False
+
+    if backend == "resend":
+        return _send_via_resend(cfg, subject, body_text, body_html)
+    return _send_via_smtp(cfg, subject, body_text, body_html)
 
 
 def _fmt_sharps_lines(sig: dict) -> list[str]:
@@ -296,19 +350,17 @@ def _test_mode():
     cfg = _load_env()
     if not _is_configured(cfg):
         print("\nEmail is NOT configured. To enable:")
-        print(f"  1. Create {ENV_FILE} with these lines:")
-        print("       EMAIL_FROM=bollapranav05@gmail.com")
-        print("       EMAIL_PASSWORD=<16-char Gmail app password>")
-        print("       EMAIL_TO=bollapranav05@gmail.com")
-        print("  2. Generate the app password at")
-        print("     https://myaccount.google.com/apppasswords")
-        print("     (Requires 2-Step Verification on the Gmail account.)")
-        print(f"  3. Re-run: python3 -m bot.notifier --test\n")
+        print(f"  Railway (recommended): set RESEND_API_KEY, EMAIL_FROM, EMAIL_TO")
+        print(f"  Local dev: set EMAIL_FROM, EMAIL_PASSWORD, EMAIL_TO in {ENV_FILE}")
+        print(f"  Then re-run: python3 -m bot.notifier --test\n")
         return
 
+    backend = email_backend(cfg)
+    print(f"  backend:     {backend}")
     print(f"  EMAIL_FROM:  {cfg['EMAIL_FROM']}")
     print(f"  EMAIL_TO:    {cfg['EMAIL_TO']}")
-    print(f"  EMAIL_PASS:  {'*' * (len(cfg['EMAIL_PASSWORD']) - 2) + cfg['EMAIL_PASSWORD'][-2:]}")
+    if backend == "smtp" and cfg.get("EMAIL_PASSWORD"):
+        print(f"  EMAIL_PASS:  {'*' * (len(cfg['EMAIL_PASSWORD']) - 2) + cfg['EMAIL_PASSWORD'][-2:]}")
     print("  Sending test signal digest...")
 
     fake_sig = {

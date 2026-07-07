@@ -433,6 +433,14 @@ def poll_once(
     emailed = False
     if send_email:
         emailed = send_trade_digest(username, new_trades, wallet=wallet)
+        if not emailed:
+            logger.warning(
+                "  @%s: %d new trade(s) but email failed — will retry next poll",
+                username, len(new_trades),
+            )
+            state["last_poll"] = datetime.now(timezone.utc).isoformat()
+            save_state(state, username)
+            return {"new": len(new_trades), "emailed": False}
 
     for t in new_trades:
         seen.add(trade_key(t))
@@ -459,18 +467,22 @@ def setup_logging(log_dir: Path) -> None:
 
 def log_startup_status(watches: list[dict], poll_seconds: int) -> None:
     """Log config summary to stdout (visible in Railway deploy logs)."""
-    from bot.notifier import _load_env, _is_configured
+    from bot.notifier import _load_env, _is_configured, email_backend
 
     cfg = _load_env()
+    backend = email_backend(cfg)
     logger.info("=== wallet_alerts startup ===")
-    logger.info("email configured: %s", _is_configured(cfg))
+    logger.info("email configured: %s (backend=%s)", _is_configured(cfg), backend)
     if _is_configured(cfg):
         logger.info("email from: %s -> to: %s", cfg["EMAIL_FROM"], cfg["EMAIL_TO"])
     else:
-        missing = [
-            k for k in ("EMAIL_FROM", "EMAIL_PASSWORD", "EMAIL_TO")
-            if not cfg.get(k)
-        ]
+        missing = []
+        if not cfg.get("EMAIL_FROM"):
+            missing.append("EMAIL_FROM")
+        if not cfg.get("EMAIL_TO"):
+            missing.append("EMAIL_TO")
+        if not cfg.get("RESEND_API_KEY") and not cfg.get("EMAIL_PASSWORD"):
+            missing.append("RESEND_API_KEY or EMAIL_PASSWORD")
         logger.error("missing email env vars: %s", ", ".join(missing))
 
     for watch in watches:
