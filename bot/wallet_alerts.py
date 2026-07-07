@@ -453,6 +453,38 @@ def setup_logging(log_dir: Path) -> None:
             logging.FileHandler(log_file),
             logging.StreamHandler(),
         ],
+        force=True,
+    )
+
+
+def log_startup_status(watches: list[dict], poll_seconds: int) -> None:
+    """Log config summary to stdout (visible in Railway deploy logs)."""
+    from bot.notifier import _load_env, _is_configured
+
+    cfg = _load_env()
+    logger.info("=== wallet_alerts startup ===")
+    logger.info("email configured: %s", _is_configured(cfg))
+    if _is_configured(cfg):
+        logger.info("email from: %s -> to: %s", cfg["EMAIL_FROM"], cfg["EMAIL_TO"])
+    else:
+        missing = [
+            k for k in ("EMAIL_FROM", "EMAIL_PASSWORD", "EMAIL_TO")
+            if not cfg.get(k)
+        ]
+        logger.error("missing email env vars: %s", ", ".join(missing))
+
+    for watch in watches:
+        state = load_state(watch["username"])
+        logger.info(
+            "@%s wallet=%s... initialized=%s seen_tx=%d",
+            watch["username"],
+            watch["wallet"][:10],
+            state.get("initialized"),
+            len(state.get("seen_tx", [])),
+        )
+    logger.info(
+        "polling every %ss — alerts only for NEW trades after seed",
+        poll_seconds,
     )
 
 
@@ -503,6 +535,7 @@ def main():
         f"@{w['username']} ({w['wallet'][:10]}...)" for w in watches
     )
     logger.info(f"watching {len(watches)} wallet(s): {labels}")
+    log_startup_status(watches, args.poll_seconds)
 
     if args.one_shot:
         for watch in watches:

@@ -65,6 +65,10 @@ def _is_configured(cfg: dict) -> bool:
     return all(cfg.get(k) for k in ("EMAIL_FROM", "EMAIL_PASSWORD", "EMAIL_TO"))
 
 
+def _normalize_recipients(to_header: str) -> str:
+    return ", ".join(addr.strip() for addr in to_header.split(",") if addr.strip())
+
+
 def send_email(subject: str, body_text: str, body_html: str | None = None) -> bool:
     cfg = _load_env()
     if not _is_configured(cfg):
@@ -74,7 +78,7 @@ def send_email(subject: str, body_text: str, body_html: str | None = None) -> bo
 
     msg = EmailMessage()
     msg["From"] = cfg["EMAIL_FROM"]
-    msg["To"] = cfg["EMAIL_TO"]
+    msg["To"] = _normalize_recipients(cfg["EMAIL_TO"])
     msg["Subject"] = subject
     msg.set_content(body_text)
     if body_html:
