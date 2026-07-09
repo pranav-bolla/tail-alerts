@@ -81,16 +81,21 @@ def _normalize_recipients(to_header: str) -> str:
 
 def _send_via_resend(cfg: dict, subject: str, body_text: str,
                      body_html: str | None) -> bool:
-    payload = {
-        "from": f"Tail Bot <{cfg['EMAIL_FROM']}>",
-        "to": _parse_recipients(cfg["EMAIL_TO"]),
-        "subject": subject,
-        "text": body_text,
-    }
-    if body_html:
-        payload["html"] = body_html
-    try:
-        r = requests.post(
+    recipients = _parse_recipients(cfg["EMAIL_TO"])
+    if not recipients:
+        logger.error("Resend: no recipients in EMAIL_TO")
+        return False
+
+    def _post(to_addrs: list[str]) -> requests.Response:
+        payload = {
+            "from": f"Tail Bot <{cfg['EMAIL_FROM']}>",
+            "to": to_addrs,
+            "subject": subject,
+            "text": body_text,
+        }
+        if body_html:
+            payload["html"] = body_html
+        return requests.post(
             "https://api.resend.com/emails",
             headers={
                 "Authorization": f"Bearer {cfg['RESEND_API_KEY']}",
@@ -99,14 +104,52 @@ def _send_via_resend(cfg: dict, subject: str, body_text: str,
             json=payload,
             timeout=20,
         )
+
+    try:
+        r = _post(recipients)
         if r.status_code in (200, 201):
-            logger.info(f"email sent via Resend: {subject!r}")
+            logger.info("email sent via Resend to %s: %r", recipients, subject)
             return True
+
+        # Test sender (onboarding@resend.dev) rejects multi-recipient sends —
+        # try each address individually so at least the account owner gets mail.
+        if r.status_code == 403 and len(recipients) > 1:
+            logger.warning(
+                "Resend rejected multi-recipient send (%s) — trying one-by-one",
+                r.text[:200],
+            )
+            sent_any = False
+            for addr in recipients:
+                one = _post([addr])
+                if one.status_code in (200, 201):
+                    logger.info("email sent via Resend to %s: %r", addr, subject)
+                    sent_any = True
+                else:
+                    logger.error(
+                        "Resend failed for %s (%s): %s",
+                        addr, one.status_code, one.text[:300],
+                    )
+            return sent_any
+
         logger.error("Resend API error %s: %s", r.status_code, r.text[:500])
         return False
     except Exception as e:
         logger.exception(f"Resend send failed: {e}")
         return False
+
+
+def warn_resend_recipients(cfg: dict) -> None:
+    """Log warnings for common Resend misconfigurations."""
+    if not cfg.get("RESEND_API_KEY"):
+        return
+    from_addr = (cfg.get("EMAIL_FROM") or "").lower()
+    recipients = _parse_recipients(cfg.get("EMAIL_TO") or "")
+    if "onboarding@resend.dev" in from_addr and len(recipients) > 1:
+        logger.warning(
+            "EMAIL_FROM=onboarding@resend.dev only delivers to your Resend "
+            "account email. Other recipients (%s) need a verified domain.",
+            ", ".join(recipients[1:]),
+        )
 
 
 def _send_via_smtp(cfg: dict, subject: str, body_text: str,

@@ -467,7 +467,7 @@ def setup_logging(log_dir: Path) -> None:
 
 def log_startup_status(watches: list[dict], poll_seconds: int) -> None:
     """Log config summary to stdout (visible in Railway deploy logs)."""
-    from bot.notifier import _load_env, _is_configured, email_backend
+    from bot.notifier import _load_env, _is_configured, email_backend, warn_resend_recipients
 
     cfg = _load_env()
     backend = email_backend(cfg)
@@ -475,6 +475,7 @@ def log_startup_status(watches: list[dict], poll_seconds: int) -> None:
     logger.info("email configured: %s (backend=%s)", _is_configured(cfg), backend)
     if _is_configured(cfg):
         logger.info("email from: %s -> to: %s", cfg["EMAIL_FROM"], cfg["EMAIL_TO"])
+        warn_resend_recipients(cfg)
     else:
         missing = []
         if not cfg.get("EMAIL_FROM"):
